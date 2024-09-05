@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@strapi/plugin-graphql": "^4.0.5",
+    "@strapi-community/strapi-provider-upload-google-cloud-storage": "^4.10.5",
     "fs-extra": "^10.0.0",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
@@ -12,7 +13,9 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
-    "styled-components": "5.3.3"
+    "styled-components": "5.3.3",
+    "pg": "^8.11.1"
+
   },
   "name": "backend",
   "private": true,
@@ -23,7 +26,7 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "deploy": "strapi deploy"
+    "deploy": "docker buildx build --platform linux/amd64 . -f Dockerfile -t us-east1-docker.pkg.dev/linen-badge-392701/rocsites/blue-rock/strapi:latest --progress plain --push"
   },
   "devDependencies": {},
   "author": {
