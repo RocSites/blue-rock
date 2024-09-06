@@ -9289,7 +9289,7 @@ module.exports = [];
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"data":{"strapiGlobal":{"siteName":"Strapi Blog","favicon":{"localFile":{"url":"http://localhost:1337/uploads/favicon_68abdda241.png"}},"defaultSeo":{"metaTitle":"Page","metaDescription":"A blog made with Strapi","shareImage":{"localFile":{"url":"http://localhost:1337/uploads/default_image_1f591c13fb.png"}}}}}}');
+module.exports = /*#__PURE__*/JSON.parse('{"data":{"strapiGlobal":{"siteName":"Strapi Blog (local)","favicon":{"localFile":{"url":"http://localhost:1337/uploads/favicon_68abdda241.png"}},"defaultSeo":{"metaTitle":"Page","metaDescription":"A blog made with Strapi","shareImage":{"localFile":{"url":"http://localhost:1337/uploads/default_image_1f591c13fb.png"}}}}}}');
 
 /***/ })
 
